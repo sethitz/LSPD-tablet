@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Tai+Heritage+Pro&family=Work+Sans&display=swap');</style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="main">
+        <div class="aplications">
+            <div class="options">
+                <li class="option" id="option1">DOCUMENT VERIFIER</li>
+                <li class="option" id="option2">VEHICLE PLATE VERIFIER</li>
+                <li class="option" id="option3">REPORTS</li>
+                <li class="option" id="option4">CALLOUTS</li>
+            </div>
+            <div class="option-container-active" id="none">
+                <img src="./images/lspdlogo.png" class="cbimage">
+                <h2 class="h2center maintittle lora">Hi!, this is LSPD tablet</h2>
+                <h3 class="maintittle lora">To get started, select an option.</h3>
+            </div>
+            <div class="option-container" id="documents-container">
+                <div class="options-documents">
+                    <h2 class="h2menu h2center">SELECT ONE</h2>
+                    <button class="document-button">DNI</button>
+                    <button class="document-button">Car license</button>
+                    <button class="document-button">Gun license</button>
+                </div>
+            </div>
+            <div class="option-container" id="vehicle-plate-container">
+                <div class="optionsvehicle">
+                    <h2 class="h2menu2 h2center">ENTER VEHICLE PLATE</h2>
+                    <div class="submitvehicle">
+                        <input type="text" class="plateinput">
+                        <button type="reset" class="buttonvehicle"><span class="material-symbols-outlined">search</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="option-container" id="reports-container">
+                <div class="optionsreports">
+                    <h2 class="maintextreports">REPORTS</h2>
+                    <div class="reports-main">
+                        <div class="report">
+                            <div class="textgridreports">
+                                <h3 class="tittlereport">From:</h3>
+                                <h3 class="textreport">Unknow</h3>
+                            </div>
+                            <div class="textgridreports">
+                                <h3 class="tittlereport">Zone: </h3>
+                                <h3 class="textreport">little seoul</h3>
+                            </div>
+                            <div class="textgridreports">
+                                <h3 class="tittlereport">Description: </h3>
+                                <p class="textreport">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero molestias quasi nobis voluptatem, exercitationem quisquam architecto obcaecati laborum.</p>
+                            </div>
+                            <div class="textgridreports">
+                                <h3 class="tittlereport">Hour: </h3>
+                                <h3 class="textreport">19:20</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="option-container" id="callouts-container">
+                <div class="main-callouts">
+                    <div class="aside-callouts">
+                        <h2 class="callouts-aside-tittle">Callouts</h2>
+                        <div class="callout" id="ex-callout">
+                            <span class="material-symbols-outlined text-callout">phone_in_talk</span>
+                            <h3 class="text-callout">123-4567</h3>
+                            <span class="material-symbols-outlined text-callout">chevron_right</span>
+                        </div>
+                    </div>
+                    <div class="callout-content" id="ex-callout-content">
+                        <div class="tittle-callout">
+                            <h2>Callout Description</h2>
+                        </div>
+                        <div class="content-descriptions-tittles">
+                            <div class="content-callouts">
+                                <h3 class="tittle-description">Crime</h3>
+                                <p class="description-description">Murder</p>
+                            </div>
+                            <div class="content-callouts">
+                                <h3 class="tittle-description">Address</h3>
+                                <p class="description-description" style="color: rgb(196, 189, 0);">Rancho,Carson Ave</p>
+                            </div>
+                            <div class="content-callouts">
+                                <h3 class="tittle-description">Response Code</h3>
+                                <p class="description-description">3</p>
+                            </div>
+                            <div class="content-callouts">
+                                <h3 class="tittle-description">Status</h3>
+                                <p class="description-description" style="color: rgb(0, 174, 0);">Completed</p>
+                            </div>
+                            <div class="content-callouts">
+                                <h3 class="tittle-description">Description</h3>
+                                <p class="description-description">Murgging in progress</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
